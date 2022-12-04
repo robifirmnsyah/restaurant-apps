@@ -74,12 +74,13 @@ const createRestaurantDetail = (restaurant) => `
       <div class="desc-wrapper">
         <h1 class="resto-name">${restaurant.name}</h1>
         <div class="addr-rating__wrapper">
-          <p class="resto-address">Address : ${restaurant.address}</p>
+          <p class="resto-address">Kota ${restaurant.city}</p>
+          <p class="resto-address">Alamat : ${restaurant.address}</p>
           <p class="resto-rating">Rating : ${restaurant.rating}</p>
         </div>
         <p>
           ${restaurant.description}
-        </p>movie
+        </p>restaurant
       </div>     
     </div>
     <div class="right-wrapper">
